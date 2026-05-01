@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# Quarto
+_book/
+_site/
+*_files/
+.quarto/
+
+# Data — datasets grandes nunca commitados
+# Use Git LFS ou DVC para versionar
+data/
+*.parquet
+*.csv.gz
+*.feather
+*.h5
+*.hdf5
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+.env.*.local
